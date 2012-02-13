@@ -1,0 +1,188 @@
+a {
+    color: #F24B0F;
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c13c00;
+    font-style: normal;
+}
+
+a:visited {
+}
+
+body {
+    background-color: #F26513;
+    background-position: top;
+    background-repeat: repeat-x;
+    color: #2D2835;
+    font-family: 'Rationale', Courier;
+    font-size: 14pt;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.provisional {
+    font-style: italic;
+}
+
+.redacted {
+    text-decoration: line-through;
+}
+
+.shown {
+    display: block;
+}
+
+.system {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#control {
+    background-color: white;
+
+    border: 8pt solid #2D2835;
+
+    -webkit-border-top-left-radius: 4pt;
+    -khtml-border-radius-topleft: 4pt;
+    -moz-border-radius-topleft: 4pt;
+    border-top-left-radius: 4pt;
+
+    -webkit-border-top-right-radius: 32pt;
+    -khtml-border-radius-topright: 32pt;
+    -moz-border-radius-topright: 32pt;
+    border-top-right-radius: 32pt;
+
+    -webkit-border-bottom-left-radius: 32pt;
+    -khtml-border-radius-bottomleft: 32pt;
+    -moz-border-radius-bottomleft: 32pt;
+    border-bottom-left-radius: 32pt;
+
+    -webkit-border-bottom-right-radius: 4pt;
+    -khtml-border-radius-bottomright: 4pt;
+    -moz-border-radius-bottomright: 4pt;
+    border-bottom-right-radius: 4pt;
+
+    margin: auto;
+    margin-top: 8pt;
+    width: 512px;
+}
+
+#help {
+    margin: auto;
+    padding-bottom: 8pt;
+    width: 80%;
+}
+
+#help h1 {
+    font-size: 16pt;
+}
+
+#help_commands br {
+    clear: left;
+}
+
+#help_commands ul {
+    width: 100%;
+}
+
+#help_commands li {
+    float: left;
+    width: 33%;
+}
+
+#help_feedback {
+    padding-top: 8pt;
+}
+
+#help_links {
+    padding-top: 8pt;
+}
+
+#listen {
+    list-style: none;
+    margin: auto;
+    padding-top: 8pt;
+    width: 80%;
+}
+
+#listen ul {
+}
+
+#listen_ul {
+}
+
+#logo {
+    margin: auto;
+    padding-bottom: 8pt;
+    padding-top: 8pt;
+    width: 80%;
+}
+
+#logo h1 {
+    font-size: 18pt;
+}
+
+#status {
+    display: none;
+}
+
+#talk {
+    margin: auto;
+    padding-top: 8pt;
+    text-align: center;
+    width: 80%;
+}
+
+#talk_form {
+}
+
+#talk_input {
+    background-color: #F24B0F;
+
+    border: 4pt solid #2D2835;
+
+    -webkit-border-top-left-radius: 4pt;
+    -khtml-border-radius-topleft: 4pt;
+    -moz-border-radius-topleft: 4pt;
+    border-top-left-radius: 4pt;
+
+    -webkit-border-top-right-radius: 4pt;
+    -khtml-border-radius-topright: 4pt;
+    -moz-border-radius-topright: 4pt;
+    border-top-right-radius: 4pt;
+
+    -webkit-border-bottom-left-radius: 4pt;
+    -khtml-border-radius-bottomleft: 4pt;
+    -moz-border-radius-bottomleft: 4pt;
+    border-bottom-left-radius: 4pt;
+
+    -webkit-border-bottom-right-radius: 4pt;
+    -khtml-border-radius-bottomright: 4pt;
+    -moz-border-radius-bottomright: 4pt;
+    border-bottom-right-radius: 4pt;
+
+    color: white;
+    font-family: 'Rationale', Courier;
+    font-size: 14pt;
+    width: 100%;
+}

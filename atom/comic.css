@@ -1,0 +1,266 @@
+a {
+    color: red;
+    //font-style: italic;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    font-style: normal;
+}
+
+a:visited {
+}
+
+body {
+    background-color: white;
+    background-image: url(http://26.media.tumblr.com/tumblr_lpsm672Pv11qciktso1_400.png);
+    background-position: center;
+    background-repeat: repeat-y;
+    color: black;
+    font-family: 'Bangers', Verdana, cursive;
+    font-size: 18pt;
+    margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+h1 {
+    font-weight: normal;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.provisional {
+    color: red;
+}
+
+.redacted {
+    //color: black;
+    background-color: black;
+    //text-decoration: line-through;
+}
+
+.shown {
+    display: block;
+}
+
+.system {
+    //color: #000000;
+    font-size: 18pt;
+    //font-weight: bold;
+}
+
+#control {
+    background-color: white;
+
+    border-left: 1pt solid white;
+    border-right: 1pt solid white;
+
+    border-bottom: 128pt solid black;
+    padding-bottom: 8pt;
+
+    border-top: 8pt solid red;
+    padding-top: 8pt;
+
+    /*
+    border: 8pt solid #fac200;
+
+    -webkit-border-top-left-radius: 4pt;
+    -khtml-border-radius-topleft: 4pt;
+    -moz-border-radius-topleft: 4pt;
+    border-top-left-radius: 4pt;
+
+    -webkit-border-top-right-radius: 32pt;
+    -khtml-border-radius-topright: 32pt;
+    -moz-border-radius-topright: 32pt;
+    border-top-right-radius: 32pt;
+
+    -webkit-border-bottom-left-radius: 32pt;
+    -khtml-border-radius-bottomleft: 32pt;
+    -moz-border-radius-bottomleft: 32pt;
+    border-bottom-left-radius: 32pt;
+
+    -webkit-border-bottom-right-radius: 4pt;
+    -khtml-border-radius-bottomright: 4pt;
+    -moz-border-radius-bottomright: 4pt;
+    border-bottom-right-radius: 4pt;
+    */
+
+    margin: auto;
+    //margin-top: 8pt;
+    width: 384px;
+}
+
+#help {
+    font-size: 12pt;
+    margin: auto;
+    padding-bottom: 8pt;
+    text-align: right;
+    //width: 80%;
+}
+
+#help h1 {
+    font-size: 12pt;
+}
+
+#help h1:after {
+    content: ")";
+}
+
+#help h1:before {
+    content: "(";
+}
+
+#help_commands {
+    //display: inline;
+    //margin-bottom: 8pt;
+}
+
+#help_commands br {
+    clear: left;
+}
+
+#help_commands h1 {
+    //display: inline;
+}
+
+#help_commands ul {
+    display: inline;
+    width: 100%;
+}
+
+#help_commands li {
+    display: inline;
+    //float: left;
+    //width: 33%;
+}
+
+#help_feedback {
+    //display: inline;
+    padding-top: 8pt;
+}
+
+#help_feedback h1 {
+    //display: inline;
+}
+
+#help_links {
+    //display: inline;
+    padding-top: 8pt;
+}
+
+#help_links h1 {
+    //display: inline;
+}
+
+#help_links li {
+    display: inline;
+}
+
+#help_links ul {
+    display: inline;
+}
+
+#listen {
+    //border: 1px solid pink;
+    list-style: none;
+    margin: auto;
+    padding-top: 8pt;
+    //width: 80%;
+}
+
+#listen li {
+    display: inline;
+}
+
+#listen li:after {
+    content: " ";
+}
+
+#listen li.system {
+    display: block;
+    margin-top: 8pt;
+}
+
+#listen li.system:after {
+    content: ") ";
+    //display: inline;
+}
+
+#listen li.system:before {
+    content: "(";
+}
+
+#listen_ul {
+}
+
+#logo {
+    margin: auto;
+    padding-bottom: 8pt;
+    padding-top: 8pt;
+    text-align: right;
+    //width: 80%;
+}
+
+#logo h1 {
+    font-size: 24pt;
+}
+
+#status {
+    display: none;
+}
+
+#talk {
+    //border: 1px solid pink;
+//    margin: auto;
+    padding-top: 8pt;
+    text-align: left;
+    //width: 80%;
+}
+
+#talk_input {
+    //background-color: yellow;
+
+    border: none;
+    border-bottom: 4pt dashed black;
+    //border: 0;
+
+    /*
+    -webkit-border-top-left-radius: 4pt;
+    -khtml-border-radius-topleft: 4pt;
+    -moz-border-radius-topleft: 4pt;
+    border-top-left-radius: 4pt;
+
+    -webkit-border-top-right-radius: 4pt;
+    -khtml-border-radius-topright: 4pt;
+    -moz-border-radius-topright: 4pt;
+    border-top-right-radius: 4pt;
+
+    -webkit-border-bottom-left-radius: 4pt;
+    -khtml-border-radius-bottomleft: 4pt;
+    -moz-border-radius-bottomleft: 4pt;
+    border-bottom-left-radius: 4pt;
+
+    -webkit-border-bottom-right-radius: 4pt;
+    -khtml-border-radius-bottomright: 4pt;
+    -moz-border-radius-bottomright: 4pt;
+    border-bottom-right-radius: 4pt;
+    */
+
+    //color: white;
+    font-family: 'Bangers', Verdana, cursive;
+    font-size: 18pt;
+    width: 100%;
+}

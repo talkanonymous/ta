@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<title>talk [?] anonymous</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="stylesheet" type="text/css" href="/hipster.css" title="hipster">
+<link rel="alternate stylesheet" type="text/css" href="/comic.css" title="comic">
+<link rel="alternate stylesheet" type="text/css" href="/hacker.css" title="hacker">
+
+<link href='http://fonts.googleapis.com/css?family=Rationale' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Anonymous+Pro:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+
+<script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+<script type="application/javascript" src="/ta.js"></script>
+<script type="application/javascript" src="/redact.js"></script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18003263-14']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+
+<body onload="javascript:init();">
+
+<div id="control">
+
+  <div id="status"></div>
+
+  <div id="listen">
+    <ul id="listen_ul"></ul>
+  </div>
+
+  <div id="talk">
+    <form id="talk_form" action="javascript:talk();">
+      <span id="talk_input_before"></span><input id="talk_input" type="text" maxlength="256">
+    </form>
+  </div>
+
+  <div id="logo">
+    <h1><a href="javascript:touchLogo();">talk [?] anonymous</a></h1>
+  </div>
+
+  <div id="help" class="hidden">
+    <div id="help_commands">
+      <h1>commands</h1>
+      <ul>
+        <li><a href="javascript:doCommand('/be anonymous');">/be anonymous</a></li>
+        <li><a href="javascript:doCommand('/be silly');">/be silly</a></li>
+        <li><a href="javascript:doCommand('/be [anything]');">/be [anything]</a></li>
+        <li><a href="javascript:doCommand('/help');">/help</a></li>
+        <li><a href="javascript:doCommand('/random');">/random</a></li>
+        <li><a href="javascript:doCommand('/style');">/style</a></li>
+        <li><a href="javascript:doCommand('/whoami');">/whoami</a></li>
+        <li><a href="javascript:doCommand('/whowasi');">/whowasi</a></li>
+      </ul>
+      <br />
+    </div>
+
+    <div id="help_links">
+      <h1>links</h1>
+      <ul>
+        <li><a href="/be/anonymous">http://talkanonymous.com/be/anonymous</a></li>
+        <li><a href="/be/silly">http://talkanonymous.com/be/silly</a></li>
+        <li><a href="/be/[anything]">http://talkanonymous.com/be/[anything]</a></li>
+    </div>
+
+    <div id="help_feedback">
+      <h1>feedback</h1>
+      This site is in development.  Please report bugs to <a href="mailto:anonymous@talkanonymous.com">anonymous@talkanonymous.com</a>.
+    </div>
+  </div>
+
+</div>
+
+</body>
+
+</html>
