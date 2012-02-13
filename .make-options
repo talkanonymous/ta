@@ -1,0 +1,3 @@
+clean_files += ta.out
+library_paths += -L$(XT)
+libraries += -lxt
